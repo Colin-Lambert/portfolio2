@@ -5,7 +5,7 @@ import { Nav, Navbar, NavItem } from 'reactstrap';
 const Header = () => {
     return (
         <div>
-            <h1>This is the header!</h1>
+            <h1>This is the header</h1>
             <NavList />
         </div>
     );
