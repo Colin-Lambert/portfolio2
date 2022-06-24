@@ -1,9 +1,10 @@
 import React from 'react';
 import Header from './HeaderComponent';
 import About from './AboutComponent';
-import Projects from './ProjectsComponent';
+import ProjectsList from './ProjectsComponent';
 import Footer from './FooterComponent';
 import { Route, Routes } from 'react-router-dom';
+import { PROJECTS } from '../shared/PROJECTS';
 
 const Main = () => {
     return (
@@ -11,7 +12,7 @@ const Main = () => {
             <Header />
             <Routes>
                 <Route path='/about' element={<About />} />
-                <Route path='/projects' element={<Projects />} />
+                <Route path='/projects' element={<ProjectsList projects={PROJECTS} />} />
             </Routes>
             <Footer />
         </div>
