@@ -8,6 +8,10 @@ html {
   color: white;
 }
 
+.headshot {
+  border-radius: 50%;
+}
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;

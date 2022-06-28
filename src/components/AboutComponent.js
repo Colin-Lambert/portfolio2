@@ -7,10 +7,9 @@ const About = () => {
             <div className='container'>
                 <div className='row'>
                     <div className='col-5'>
-                        Headshot here?
-                        <img src={headshot} height='100' width='100' alt='headshot' />
+                        <img src={headshot} height='120' width='100' alt='headshot' className='headshot' />
                     </div>
-                    <div className='col'>This is what I'm about! </div>
+                    <div className='col'>This is what I'm about!</div>
                 </div>
             </div>
         </div>
