@@ -1,4 +1,5 @@
 import React from 'react';
+import headshot from '../images/cello-headshot.JPG';
 
 const About = () => {
     return (
@@ -6,7 +7,8 @@ const About = () => {
             <div className='container'>
                 <div className='row'>
                     <div className='col-5'>
-                        Hopefully this will be an image soon?
+                        Headshot here?
+                        <img src={headshot} height='100' width='100' alt='headshot' />
                     </div>
                     <div className='col'>This is what I'm about! </div>
                 </div>
