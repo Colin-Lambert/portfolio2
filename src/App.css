@@ -10,7 +10,9 @@ html {
 
 .headshot {
   border-radius: 50%;
+  border-block: inline;
 }
+
 
 /* .App-logo {
   height: 40vmin;
