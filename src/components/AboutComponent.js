@@ -7,6 +7,11 @@ const About = () => {
                 <div className='row'>
                     <div className='col'>This is what I'm about!</div>
                 </div>
+                {/* <div className='row'>
+                    <div className='col'>
+                        lo
+                    </div>
+                </div> */}
             </div>
         </div>
     );
