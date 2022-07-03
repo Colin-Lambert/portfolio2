@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Collapse, Nav, Navbar, NavbarBrand, NavItem, NavbarToggler } from 'reactstrap';
+import { Collapse, Nav, Navbar, NavbarBrand, NavItem, NavbarToggler, Container, Row, Col } from 'reactstrap';
 import headshot from '../images/cello-headshot.JPG';
 
 const Header = () => {
     return (
-        <div className='container'>
-            <div className='row'>
-                <div className='col-md-2 mt-auto'>
+        <Container>
+            <Row>
+                <Col className='col-md-2 mt-auto'>
                     <img src={headshot} height='120' width='100' alt='headshot' className='headshot' />
-                </div>
-                <div className='col-md'>
+                </Col>
+                <Col className='col-md'>
                     <h1>colin.lambert/front-end-developer</h1>
-                </div>
-            </div>
-            <div className='row'>
+                </Col>
+            </Row>
+            <Row>
                 <NavList />
-            </div>
-        </div>
+            </Row>
+        </Container>
     );
 }
 
