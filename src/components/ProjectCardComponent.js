@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
-import { Card, CardImg, CardImgOverlay, CardTitle } from "reactstrap";
+import { Card, CardImg, CardImgOverlay, CardText, CardTitle } from "reactstrap";
 
 const ProjectCard = ({ project }) => {
     if (project) {
@@ -19,7 +19,7 @@ const ProjectCard = ({ project }) => {
                         <CardImgOverlay>
                             <CardTitle>{name}</CardTitle>
                         </CardImgOverlay>
-                        <p>{description}</p>
+                        <CardText>{description}</CardText>
                     </NavLink>
                 </Card>
             </div>

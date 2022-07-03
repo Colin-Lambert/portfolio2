@@ -5,19 +5,23 @@ import headshot from '../images/cello-headshot.JPG';
 
 const Header = () => {
     return (
-        <Container>
-            <Row>
-                <Col className='col-md-2 mt-auto'>
-                    <img src={headshot} height='120' width='100' alt='headshot' className='headshot' />
-                </Col>
-                <Col className='col-md'>
-                    <h1>colin.lambert/front-end-developer</h1>
-                </Col>
-            </Row>
-            <Row>
-                <NavList />
-            </Row>
-        </Container>
+        <div>
+            <Container>
+                <Row>
+                    <Col className='col-md-2 mt-auto'>
+                        <img src={headshot} height='120' width='100' alt='headshot' className='headshot' />
+                    </Col>
+                    <Col className='col-md'>
+                        <h1>colin.lambert/front-end-developer</h1>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <NavList />
+                    </Col>
+                </Row>
+            </Container>
+        </div>
     );
 }
 
