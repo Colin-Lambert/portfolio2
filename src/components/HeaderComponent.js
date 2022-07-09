@@ -8,10 +8,13 @@ const Header = () => {
         <div>
             <Container>
                 <Row>
-                    <Col className='col-md-2 mt-auto'>
+                    <Col
+                        className='col-md-2 mt-auto xyz-in'
+                        xyz='fade up-5 big'
+                    >
                         <img src={headshot} height='120' width='100' alt='headshot' className='headshot' />
                     </Col>
-                    <Col className='col-md'>
+                    <Col className='col-md xyz-in' xyz='fade up-5 big'>
                         <h1>colin.lambert/front-end-developer</h1>
                     </Col>
                 </Row>
