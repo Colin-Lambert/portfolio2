@@ -1,19 +1,13 @@
 import React from 'react';
+import { Col, Container, Row } from 'reactstrap';
 
 const About = () => {
     return (
-        <div>
-            <div className='container'>
-                <div className='row item-group' xyz='fade right-5'>
-                    <div className='col xyz-in'>This is what I'm about!</div>
-                </div>
-                {/* <div className='row'>
-                    <div className='col'>
-                        lo
-                    </div>
-                </div> */}
-            </div>
-        </div>
+        <Container>
+            <Row className='item-group' xyz='fade right-5'>
+                <Col className='xyz-in d-flex justify-content-center body-content'>This is what I'm about!</Col>
+            </Row>
+        </Container>
     );
 }
 

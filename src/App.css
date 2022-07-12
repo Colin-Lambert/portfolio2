@@ -30,7 +30,13 @@ html {
   transition: opacity 300ms ease-in;
 }
 
+.body-content {
+  padding: 2rem;
+}
 
+.header-name>span {
+  font-weight: 900;
+}
 
 /* .App-logo {
   height: 40vmin;
