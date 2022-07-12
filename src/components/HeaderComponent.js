@@ -9,20 +9,16 @@ const Header = () => {
             <Container>
                 <Row>
                     <Col
-                        className='col-md-2 mt-auto xyz-in'
+                        className='col-sm-2 xyz-in mr-auto p-2'
                         xyz='fade up-5 big'
                     >
                         <img src={headshot} height='120' width='100' alt='headshot' className='headshot' />
                     </Col>
-                    <Col className='col-md xyz-in' xyz='fade up-5 big'>
-                        <h1>colin.lambert/front-end-developer</h1>
+                    <Col className='col-sm xyz-in p-2' xyz='fade up-5 big'>
+                        <h1>colin</h1>
                     </Col>
                 </Row>
-                <Row>
-                    <Col>
-                        <NavList />
-                    </Col>
-                </Row>
+                <NavList />
             </Container>
         </div>
     );
