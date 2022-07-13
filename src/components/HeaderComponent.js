@@ -14,8 +14,8 @@ const Header = () => {
                     >
                         <img src={headshot} height='120' width='100' alt='headshot' className='headshot' />
                     </Col>
-                    <Col className='col-sm xyz-in p-2 header-name' xyz='fade up-5 big'>
-                        <span>COLIN LAMBERT</span>
+                    <Col className='col-sm xyz-in p-2' xyz='fade up-5 big'>
+                        <span className='header-name'>COLIN LAMBERT</span>
                     </Col>
                 </Row>
                 <NavList />
