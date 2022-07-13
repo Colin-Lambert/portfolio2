@@ -7,7 +7,7 @@ const Home = () => {
             <Row className='item-group' xyz='fade left-5'>
                 <Col />
                 <Col className="xyz-in body-content">
-                    <h2>Hello, my name is Colin.</h2>
+                    <h2>Hello, my name is Colin!</h2>
                     <p>I am a freelance front-end web developer based in Phoenix, AZ.</p>
                 </Col>
                 <Col />
