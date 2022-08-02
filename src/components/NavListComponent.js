@@ -24,6 +24,7 @@ class NavList extends Component {
                 dark
                 sticky='top'
                 expand='md'
+                className='navigate-me'
             >
                 <NavbarBrand href='/'>
                     CL

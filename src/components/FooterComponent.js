@@ -9,12 +9,20 @@ const Footer = () => {
             className="footer xyz-in"
             xyz='fade up-5'
         >
+            <hr />
             <Row className="item-group" xyz='delay-2.5 skew-left-2 fade-100% down-5 stagger-2'>
                 <Col className="d-flex justify-content-center">
                     <a role='button' className="xyz-in btn btn-link" href='mailto:colin.lambert.dev@gmail.com'>
                         <FontAwesomeIcon icon={faEnvelope} />
                     </a>
-                    <Button className="xyz-in" variant='outline-secondary' href='https://github.com/Colin-Lambert'>GitHub</Button>
+                    <Button
+                        className="xyz-in"
+                        variant='outline-secondary'
+                        href='https://github.com/Colin-Lambert'
+                        target='_blank'
+                    >
+                        Github
+                    </Button>
                 </Col>
             </Row>
         </Container>
