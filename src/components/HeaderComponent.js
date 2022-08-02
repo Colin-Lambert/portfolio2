@@ -18,7 +18,9 @@ const Header = () => {
                         <span className='header-name'>COLIN LAMBERT</span>
                     </Col>
                 </Row>
-                <NavList />
+                <Row>
+                    <NavList />
+                </Row>
             </Container>
         </div>
     );

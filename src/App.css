@@ -36,7 +36,36 @@ html {
 
 .header-name {
   font-weight: 900;
-  padding-top: 50%;
+}
+
+ul {
+  list-style: none;
+}
+
+.social-link {
+  color: white;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.exp-html:hover {
+  color: #d93f07;
+}
+
+.exp-css:hover {
+  color: #0a2df2;
+}
+
+.exp-javascript:hover {
+  color: #f2d70a;
+}
+
+.exp-react:hover {
+  color: #4ec0f5;
 }
 
 /* .App-logo {
