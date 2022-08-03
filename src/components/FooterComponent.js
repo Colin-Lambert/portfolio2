@@ -1,7 +1,5 @@
 import React from "react";
-import { Button, Col, Container, Row } from "reactstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { Col, Container, Row } from "reactstrap";
 
 const Footer = () => {
     return (
@@ -14,7 +12,10 @@ const Footer = () => {
                 <Col className="d-flex mr-auto">
                     <ul>
                         <li>
-                            <a className="xyz-in social-link" href='mailto:colin.lambert.dev@gmail.com'>
+                            <a
+                                className="xyz-in social-link"
+                                href='mailto:colin.lambert.dev@gmail.com'
+                            >
                                 Email
                             </a>
                         </li>

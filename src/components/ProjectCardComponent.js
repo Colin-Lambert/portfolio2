@@ -7,22 +7,21 @@ const ProjectCard = ({ project }) => {
         const { image, name, id, description } = project;
 
         return (
-            <div>
-                <Card>
-                    <NavLink to={`/projects/${id}`}>
-                        <CardImg
-                            width="100"
-                            height="100"
-                            src={image}
-                            alt={name}
-                        />
-                        <CardImgOverlay>
-                            <CardTitle>{name}</CardTitle>
-                        </CardImgOverlay>
-                        <CardText>{description}</CardText>
-                    </NavLink>
-                </Card>
-            </div>
+            <Card>
+                <NavLink to={`/projects/${id}`}>
+                    <CardImg
+                        className='project-pic'
+                        width="100"
+                        height="100"
+                        src={image}
+                        alt={name}
+                    />
+                    <CardImgOverlay>
+                        <CardTitle>{name}</CardTitle>
+                    </CardImgOverlay>
+                    <CardText>{description}</CardText>
+                </NavLink>
+            </Card>
         );
     }
     return <div />;

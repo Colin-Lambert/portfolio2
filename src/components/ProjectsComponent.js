@@ -1,13 +1,23 @@
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
 import ProjectCard from "./ProjectCardComponent";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPersonDigging } from "@fortawesome/free-solid-svg-icons";
 
 const ProjectsList = (props) => {
     const projects = props.projects;
 
     return (
         <Container>
-            <Row className="ms-auto">
+            <Row className="project-zone">
+                <Col>
+                    <p className="d-flex justify-content-center">
+                        Under construction...
+                        <FontAwesomeIcon icon={faPersonDigging} />
+                    </p>
+                </Col>
+            </Row>
+            <Row className="ms-auto align-items-center">
                 {projects.map((project) => {
                     return (
                         <Col
